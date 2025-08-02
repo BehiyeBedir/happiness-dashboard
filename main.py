@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 
-df = pd.read_csv("world-happiness-report-2021.csv")
+df = pd.read_csv("C:/Users/behiy/OneDrive/Desktop/world-happiness-report-2021.csv")
 
 app = dash.Dash(__name__)
 
@@ -21,5 +21,6 @@ app.layout = html.Div([
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
